@@ -202,6 +202,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
+    flex-wrap: wrap;
 }
 
 #product1 .pro{
@@ -440,7 +441,173 @@ footer .copyright{
     text-align: center;
 }
 
-/* Media Query*/
-@media (max-width:799px) {
-    
+#page-header{
+    background-image: url("img/shopb1.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#page-header h2,
+#page-header p{
+    color: #fff;
+}
+
+#pages{
+    text-align: center;
+}
+
+#pages a{
+    text-decoration: none;
+    background-color: #E31C25;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+}
+
+#prodetails .single-pro-img{
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img-grp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+
+#prodetails .single-pro-details h4{
+    padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2{
+    font-size: 26px;
+}
+
+#prodetails .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+#prodetails .single-pro-details input:focus{
+    outline: none;
+}
+
+#prodetails .single-pro-details button{
+    width: 130px;
+    height: 50px;
+    background: #1D9BF0;
+    border: 2px solid #1D9BF0;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9em;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 40px;
+    transition: 0.5s;
+}
+
+#prodetails .single-pro-details button:hover{
+    background: #fff;
+    color: #1D9BF0;
+    font-weight: 500;
+}
+
+#prodetails .single-pro-details span{
+    line-height: 25px;
+}
+
+#page-header.about-header{
+    background-image: url("img/aboutus/banner1.png");
+}
+
+#about-head{
+    display: flex;
+    align-items: center;
+}
+
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+
+#about-head div{
+    padding: 40px;
+}
+
+#about-app{
+    text-align: center;
+}
+
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-details .details{
+    width: 40%;
+}
+
+#contact-details .details span{
+    font-size: 12px;
+}
+
+#contact-details .details h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+#contact-details .details h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+#contact-details .details li i{
+    font-size: 14px;
+    padding-right: 22px;
+}
+
+#contact-details .details li p{
+    margin: 0;
+    font-size: 14px;
+}
+
+#contact-details .map{
+    width: 55%;
+    height: 400px;
+}
+#contact-details .map iframe{
+    width: 100%;
+    height: 100%;
 }
